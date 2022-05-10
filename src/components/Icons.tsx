@@ -1,9 +1,8 @@
-import React from "react";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 export const IconsBar = () => {
   return (
-    <div className="flex flex-row mt-auto justify-evenly">
+    <div className="flex mt-auto mb-8 justify-evenly">
       <a href="https://github.com/tomasaguiar">
         <FaGithub color="#ccc" size={18} />
       </a>

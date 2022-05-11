@@ -1,4 +1,3 @@
-import { ReactElement } from "react";
 import { RustLogo, TypescriptLogo, ReactLogo } from "./Icons";
 
 export function SkillComponent() {

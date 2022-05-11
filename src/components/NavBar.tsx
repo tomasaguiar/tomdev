@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Dropdown } from "./Dropdown";
 
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { Dropdown } from "./Dropdown";
 import { IconsBar } from "./IconsBar";
 
 interface Props {
@@ -39,10 +39,15 @@ export const NavBar: React.FC<Props> = ({ active }) => {
           <Dropdown
             className="absolute block h-6 w-44 top-2 right-4 lg:hidden"
             items={[
-              { name: "home", href: "/home" },
-              { name: "about", href: "/about" },
-              { name: "skills", href: "/skills" },
-              { name: "projects", href: "/projects" },
+              { name: "home", href: "/home", icon: "" },
+              { name: "about", href: "/about", icon: "" },
+              { name: "skills", href: "/skills", icon: "" },
+              { name: "projects", href: "/projects", icon: "" },
+              {
+                name: "github",
+                href: "https://github.com/tomasaguiar",
+                icon: <AiFillGithub className="text-xl" />,
+              },
             ]}
           />
         </div>

@@ -5,10 +5,12 @@ import { MainContent } from "../components/MainContent";
 function App() {
   return (
     <div className="h-screen bg-black">
-      <div className="flex flex-row h-screen">
-        <NavBar />
+      <div className="flex flex-col h-screen md:flex-row">
+        <NavBar active="home" />
         <MainContent>
-          <div></div>
+          <div className="mt-4">
+            <h1 className="text-2xl font-bold">Software is the future.</h1>
+          </div>
         </MainContent>
       </div>
       <Bubbles />

@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex flex-col h-screen md:flex-row">
         <NavBar active="home" />
         <MainContent>
-          <div className="mt-4">
+          <div className="mx-2 md:mr-[0px] mr-10">
             <h1 className="text-2xl font-bold">Who am I?</h1>
             <div className="">
               <p className="text-letterings-300">

@@ -6,7 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 type Section = {
   name: string;
   href: string;
-  icon: React.ReactNode | null;
+  icon?: React.ReactNode;
 };
 
 export interface DropdownProps {

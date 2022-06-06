@@ -43,27 +43,27 @@ export const NavBar: React.FC<Props> = ({ active }) => {
               {
                 name: "home",
                 href: "/home",
-                icon: <HomeIcon className="text-md" />,
+                icon: <HomeIcon className="text-xs bg-letterings-300" />,
               },
               {
                 name: "about",
                 href: "/about",
-                icon: <AboutIcon className="text-md" />,
+                icon: <AboutIcon className="text-xs bg-letterings-300" />,
               },
               {
                 name: "skills",
                 href: "/skills",
-                icon: <TechIcon className="text-md" />,
+                icon: <TechIcon className="text-xs bg-letterings-300" />,
               },
               {
                 name: "projects",
                 href: "/projects",
-                icon: <ProjectIcons className="text-md" />,
+                icon: <ProjectIcons className="text-xs bg-letterings-300" />,
               },
               {
                 name: "github",
                 href: "https://github.com/tomasaguiar",
-                icon: <AiFillGithub className="text-xl" />,
+                icon: <AiFillGithub className="text-xl" color="#d9d9d9" />,
               },
             ]}
           />

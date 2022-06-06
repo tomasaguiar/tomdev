@@ -38,7 +38,7 @@ export const AboutIcon = (props: any) => {
       xmlns="http://www.w3.org/2000/svg"
       className="w-5 h-5"
       viewBox="0 0 20 20"
-      fill="currentColor"
+      fill="#d9d9d9"
     >
       <path
         fill-rule="evenodd"
@@ -54,7 +54,7 @@ export const TechIcon = (props: any) => {
       xmlns="http://www.w3.org/2000/svg"
       className="w-5 h-5"
       viewBox="0 0 20 20"
-      fill="currentColor"
+      fill="#d9d9d9"
     >
       <path
         fill-rule="evenodd"
@@ -70,9 +70,9 @@ export const HomeIcon = (props: any) => {
       xmlns="http://www.w3.org/2000/svg"
       className="w-5 h-5"
       viewBox="0 0 20 20"
-      fill="currentColor"
+      fill="#d9d9d9"
     >
-      <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+      <path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z" />
     </svg>
   );
 };
@@ -82,12 +82,54 @@ export const ProjectIcons = (props: any) => {
       xmlns="http://www.w3.org/2000/svg"
       className="w-5 h-5"
       viewBox="0 0 20 20"
-      fill="currentColor"
+      fill="#d9d9d9"
     >
       <path d="M4 3a2 2 0 100 4h12a2 2 0 100-4H4z" />
       <path
         fill-rule="evenodd"
         d="M3 8h14v7a2 2 0 01-2 2H5a2 2 0 01-2-2V8zm5 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+};
+export const GoodthingsIcon = (props: any) => {
+  return (
+    <svg
+      width="90"
+      height="90"
+      viewBox="0 0 90 90"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="90" height="90" rx="13" fill="url(#paint0_linear_7_19)" />
+      <defs>
+        <linearGradient
+          id="paint0_linear_7_19"
+          x1="4.5"
+          y1="2.04518e-06"
+          x2="90"
+          y2="90"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FFF6E8" />
+          <stop offset="1" stop-color="#89AF93" stop-opacity="0.2" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+export const FollowUpIcon = (props: any) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-5 h-5"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1 1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0 101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415 1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0 001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z"
         clip-rule="evenodd"
       />
     </svg>
